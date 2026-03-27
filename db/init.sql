@@ -65,11 +65,12 @@ CREATE TABLE project_members (
 -- =====================
 
 INSERT INTO users (username, email, password, role) VALUES
-('admin', 'admin@taskforge.com', '$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy', 'ADMIN'),
-('john',  'john@taskforge.com',  '$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy', 'USER'),
-('sara',  'sara@taskforge.com',  '$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy', 'USER'),
-('mike',  'mike@taskforge.com',  '$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy', 'USER'),
-('ana',   'ana@taskforge.com',   '$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy', 'USER');
+('admin', 'admin@taskforge.com', '$2a$10$cOMoMqxzsb.AWtR6y9q9WuHEFMPNGG.4AlL2YnwCIF0gv3.BBKw1W', 'ADMIN'),
+('john',  'john@taskforge.com',  '$2a$10$cOMoMqxzsb.AWtR6y9q9WuHEFMPNGG.4AlL2YnwCIF0gv3.BBKw1W', 'USER'),
+('sara',  'sara@taskforge.com',  '$2a$10$cOMoMqxzsb.AWtR6y9q9WuHEFMPNGG.4AlL2YnwCIF0gv3.BBKw1W', 'USER'),
+('mike',  'mike@taskforge.com',  '$2a$10$cOMoMqxzsb.AWtR6y9q9WuHEFMPNGG.4AlL2YnwCIF0gv3.BBKw1W', 'USER'),
+('ana',   'ana@taskforge.com',   '$2a$10$cOMoMqxzsb.AWtR6y9q9WuHEFMPNGG.4AlL2YnwCIF0gv3.BBKw1W', 'USER');
+
 
 INSERT INTO projects (name, description, owner_id, status, priority) VALUES
 ('Project Alpha', 'Backend API development', 1, 'ACTIVE',    'HIGH'),
